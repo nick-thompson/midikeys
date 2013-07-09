@@ -16,9 +16,9 @@ var midiKeys = require('midikeys');
 // with data packaged to mimic the Web Audio API.
 midiKeys.on('message', function midiMessageReceived (event) {
   var cmd = event.data[0] >> 4
-   , channel = event.data[0] & 0xf
-   , noteNumber = event.data[1]
-   , velocity = event.data[2];
+    , channel = event.data[0] & 0xf
+    , noteNumber = event.data[1]
+    , velocity = event.data[2];
 
   if (cmd == 0x08) {
     myNode.start();
