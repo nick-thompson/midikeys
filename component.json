@@ -1,0 +1,19 @@
+{
+  "name": "midikeys",
+  "repo": "nick-thompson/midikeys",
+  "description": "A keyboard-to-midi utility module for Web Audio/Web MIDI projects.",
+  "version": "0.0.1",
+  "keywords": [
+    "web-audio",
+    "web-midi",
+    "utility"
+  ],
+  "dependencies": {
+    "component/emitter": "1.0.0"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
